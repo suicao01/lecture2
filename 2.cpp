@@ -64,13 +64,6 @@ using namespace std;
 // }
 
 
-// void print(queue<int>q){
-//     queue<int>temp=q;
-//     while (!temp.empty()){
-//         cout<<temp.front()<<" ";
-//         temp.pop();
-//     }
-// }
 
 // class Node{
 //     public:
@@ -121,18 +114,19 @@ using namespace std;
 // };
 
 // int main(){
-//    int n,x;
+//    int n;
 //    cin>>n;
 //    Queue q;
 //    string s;
 //    for (int i=0;i<n;i++){
+//     cin>>s;
 //     if (s=="enqueue"){
-//     cin>>x;
-//     q.enqueue(x);
+//         int x;
+//         cin>>x;
+//         q.enqueue(x);
 //     }
 //     else q.dequeue();
 //    }
-   
 // q.display();
 // }
 
