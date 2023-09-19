@@ -72,23 +72,68 @@ using namespace std;
 //     }
 // }
 
+// class Node{
+//     public:
+//     int data;
+//     Node *next;
+//     Node(int x){
+//         data=x;
+//         next=NULL;
+//     }
+// };
+
+// class Queue{
+//     Node *top;
+//     public:
+//     Queue(){
+//         top=NULL;
+//     }
+//     void enqueue(int x){
+//         Node *temp=new Node(x);
+//         if (top==NULL){
+//             top=temp;
+//         }
+//         Node*curr=top;
+//         while (curr->next!=NULL){
+//             curr=curr->next;
+//         }
+//         curr->next=temp;
+//         temp->next=NULL;
+//     }
+//     void dequeue(){
+//         Node *temp=top;
+//         top=top->next;
+//         delete(temp);
+//     }
+//     int topQueue(){
+//         return top->data;
+//     }
+//     void display(){
+//         Node *curr=top;
+//         while (curr!=NULL){
+//             cout<<curr->data<<" ";
+//             curr=curr->next;
+//         }
+//     }
+//     bool isEmpty(){
+//         return top==NULL;
+//     }
+// };
+
 // int main(){
-// int n;
-// cin>>n;
-// string s;
-// queue<int>q;
-// for (int i=0;i<n;i++){
-//     cin>>s;
+//    int n,x;
+//    cin>>n;
+//    Queue q;
+//    string s;
+//    for (int i=0;i<n;i++){
 //     if (s=="enqueue"){
-//         int x;
-//         cin>>x;
-//         q.push(x);
+//     cin>>x;
+//     q.enqueue(x);
 //     }
-//     else if (s=="dequeue"){
-//         q.pop();
-//     }
-// }
-// print(q);
+//     else q.dequeue();
+//    }
+   
+// q.display();
 // }
 
 //Stack
