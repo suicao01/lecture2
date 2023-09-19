@@ -91,31 +91,67 @@ using namespace std;
 // print(q);
 // }
 
+//Stack
+// class Node{
+//     public:
+//     int data;
+//     Node *next;
+//     Node(int x){
+//         data=x;
+//         next=NULL;
+//     }
+// };
+// class Stack{
+//     Node *top;
+//     public:
+//     Stack(){
+//         top=NULL;
+//     }
+//     void push(int x){
+// Node *temp=new Node(x);
+// temp->next=top;
+// top=temp;
+//     }
+
+//     void pop(){
+//         Node *temp=top;
+//         top=top->next;
+//         delete(temp);
+//     }
+//     bool isEmpty(){
+//         return top==NULL;
+//     }
+//     void display(){
+//         Node *curr=top;
+//         while (curr!=NULL){
+//             cout<<curr->data<<" ";
+//             curr=curr->next; 
+//         }
+//     }
+//     int topStack(){
+//         return top->data;
+//     }
+// };
+
 // int main(){
-//     int n;
+//     Stack s;
+//     int n,x;
 //     cin>>n;
-//     string s;
-//     stack<int>st;
+//     string str;
 //     for (int i=0;i<n;i++){
-//         cin>>s;
-//         if (s=="push"){
-// int x;
+//     cin>>str;
+//     if (str=="push"){
 // cin>>x;
-// st.emplace(x);
-//         }
-//         else if (s=="pop"){
-//             st.pop();
-//         }
+// s.push(x);
 //     }
-//     stack <int >temp;
-//     while (!st.empty()){
-//         temp.push(st.top());
-//         st.pop();
+//     else s.pop();
 //     }
-//     while (!temp.empty()){
-//         cout<<temp.top()<<" ";
-//         temp.pop();
+//     Stack temp;
+//     while (!s.isEmpty()){
+// temp.push(s.topStack());
+// s.pop();
 //     }
+//     temp.display();
 // }
 
 
