@@ -1,8 +1,7 @@
 #include <iostream>
-#include <queue>
-#include<stack>
-using namespace std;
 
+using namespace std;
+//bai 2
 // struct Node{
 //     int data;
 //     Node *next,*prev;
@@ -64,7 +63,7 @@ using namespace std;
 // }
 
 
-
+// bai queue
 // class Node{
 //     public:
 //     int data;
@@ -125,7 +124,7 @@ using namespace std;
 //         cin>>x;
 //         q.enqueue(x);
 //     }
-//     else q.dequeue();
+//     else if (s=="dequeue"){q.dequeue()};
 //    }
 // q.display();
 // }
@@ -183,8 +182,9 @@ using namespace std;
 // cin>>x;
 // s.push(x);
 //     }
-//     else s.pop();
+//     else if (str=="pop"){s.pop()};
 //     }
+
 //     Stack temp;
 //     while (!s.isEmpty()){
 // temp.push(s.topStack());
@@ -213,6 +213,7 @@ using namespace std;
 // cout<<count;
 // }
 
+//bai 1
 struct Node{
     int data;
     Node *next;
