@@ -124,7 +124,7 @@ using namespace std;
 //         cin>>x;
 //         q.enqueue(x);
 //     }
-//     else if (s=="dequeue"){q.dequeue()};
+//     else if (s=="dequeue"){q.dequeue();}
 //    }
 // q.display();
 // }
@@ -182,7 +182,7 @@ using namespace std;
 // cin>>x;
 // s.push(x);
 //     }
-//     else if (str=="pop"){s.pop()};
+//     else if (str=="pop"){s.pop();}
 //     }
 
 //     Stack temp;
